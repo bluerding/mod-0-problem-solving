@@ -5,6 +5,13 @@ for (i = 0; i < names.length; i++){
     }
 }
 
+// Created a function to capitalize every "A"
+function capA(array) {
+    for (i = 0; i <  array.length; i++) {
+        console.log(array[i].replaceAll("a", "A"))
+    }
+}
+capA(names)
 // I want this to return every name that is exactly 4 characters long
 // I will have it start at the first element, and go through the entire list of elements
 // and have it return only those that are 4 characters. This is done using a 'for statement'
