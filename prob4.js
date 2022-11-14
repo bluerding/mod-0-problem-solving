@@ -1,6 +1,6 @@
 var words = ["look", "looking", "swimming", "swim"]
-for (i = 0; i < words.includes; i++){
-    if (words[i].includes === "ing") {
+for (i = 0; i < words.length; i++){
+    if (words[i].includes("ing")) {
         console.log(words[i])
     }
 }
@@ -12,3 +12,5 @@ for (i = 0; i < words.includes; i++){
 
 // I wanted to leave this in for potential feedback on what I could do to have
 // this work.
+
+// I ended up going over this with my eval partner and we ended up figuring it out.
